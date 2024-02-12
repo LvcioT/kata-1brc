@@ -9,7 +9,6 @@ import (
 )
 
 func Parser(sf string, df string, i *int) {
-	// todo: make map of reference
 	aggregates := make(map[string]*model.StationAggregate)
 
 	srcFile, _ := os.Open(sf)
